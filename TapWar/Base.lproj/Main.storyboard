@@ -39,14 +39,22 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qr6-WM-J0s">
-                                <rect key="frame" x="279" y="272" width="42" height="20"/>
+                                <rect key="frame" x="279" y="271" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gc0-ep-eOd">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <color key="backgroundColor" red="0.92537469974620989" green="1" blue="0.8357497673882559" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8KK-Xz-6bG">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <rect key="frame" x="263" y="285" width="75" height="30"/>
                                 <color key="backgroundColor" red="0.76683226103751323" green="1" blue="0.89120356163866576" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="New Game"/>
                                 <connections>
                                     <action selector="endSceneAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oyx-b1-Bk0"/>
                                 </connections>
@@ -68,27 +76,29 @@
                         <constraints>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="oxI-5J-dJd" secondAttribute="bottom" id="33Z-ag-lME"/>
                             <constraint firstItem="oxI-5J-dJd" firstAttribute="top" secondItem="LOR-OA-FGw" secondAttribute="bottom" id="390-aK-Qde"/>
+                            <constraint firstItem="8KK-Xz-6bG" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="3lJ-tY-Nf9"/>
                             <constraint firstItem="8Do-ya-siv" firstAttribute="centerY" secondItem="LOR-OA-FGw" secondAttribute="centerY" id="6eS-SW-0AT"/>
                             <constraint firstItem="e2A-7y-fVI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="97C-zP-oXo"/>
                             <constraint firstItem="8Do-ya-siv" firstAttribute="centerX" secondItem="LOR-OA-FGw" secondAttribute="centerX" id="BcA-qA-p0o"/>
-                            <constraint firstItem="8KK-Xz-6bG" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="CeH-WW-dLm"/>
-                            <constraint firstItem="8KK-Xz-6bG" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="DUG-b4-nEZ"/>
                             <constraint firstItem="e2A-7y-fVI" firstAttribute="top" secondItem="LOR-OA-FGw" secondAttribute="bottom" constant="8" id="Dtg-Yg-i2p"/>
                             <constraint firstItem="GBc-LB-Y4k" firstAttribute="centerX" secondItem="oxI-5J-dJd" secondAttribute="centerX" id="GTb-40-FMk"/>
                             <constraint firstAttribute="trailingMargin" secondItem="LOR-OA-FGw" secondAttribute="trailing" constant="-20" id="GYm-ic-j4W"/>
-                            <constraint firstItem="8KK-Xz-6bG" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="PeJ-Av-bXC"/>
                             <constraint firstItem="LOR-OA-FGw" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="-20" id="Pew-f7-9xz"/>
                             <constraint firstItem="oxI-5J-dJd" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="Qeb-bn-GBW"/>
-                            <constraint firstItem="8KK-Xz-6bG" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" id="VIl-oR-dLD"/>
                             <constraint firstItem="LOR-OA-FGw" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Xph-wO-5qn"/>
+                            <constraint firstItem="8KK-Xz-6bG" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Z0d-1C-TH7"/>
                             <constraint firstItem="Qr6-WM-J0s" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ZUV-ha-s2e"/>
                             <constraint firstItem="oxI-5J-dJd" firstAttribute="height" secondItem="LOR-OA-FGw" secondAttribute="height" id="aBS-bc-qoo"/>
+                            <constraint firstItem="gc0-ep-eOd" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="eWZ-4c-u4r"/>
                             <constraint firstAttribute="trailingMargin" secondItem="oxI-5J-dJd" secondAttribute="trailing" constant="-20" id="fYA-2c-huj"/>
                             <constraint firstItem="oxI-5J-dJd" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="gQb-iR-hbv"/>
                             <constraint firstItem="LOR-OA-FGw" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="lP8-Rh-lCk"/>
                             <constraint firstItem="GBc-LB-Y4k" firstAttribute="centerY" secondItem="oxI-5J-dJd" secondAttribute="centerY" id="nfD-a5-OmM"/>
                             <constraint firstItem="oxI-5J-dJd" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="pSS-EE-mRU"/>
+                            <constraint firstItem="gc0-ep-eOd" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" id="tK5-zS-paO"/>
+                            <constraint firstItem="gc0-ep-eOd" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="upn-en-C3R"/>
                             <constraint firstItem="oxI-5J-dJd" firstAttribute="top" secondItem="Qr6-WM-J0s" secondAttribute="bottom" constant="8" id="vHG-vm-LIu"/>
+                            <constraint firstItem="gc0-ep-eOd" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="xP9-vT-wYh"/>
                             <constraint firstItem="LOR-OA-FGw" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="zyg-ZC-4KT"/>
                         </constraints>
                     </view>
@@ -99,6 +109,7 @@
                         <outlet property="blueLbl" destination="Qr6-WM-J0s" id="RKo-cO-VMA"/>
                         <outlet property="btmEndLbl" destination="GBc-LB-Y4k" id="ocd-nI-hGh"/>
                         <outlet property="endScene" destination="8KK-Xz-6bG" id="APn-x0-ofd"/>
+                        <outlet property="endSceneLbl" destination="gc0-ep-eOd" id="IGQ-iU-1J7"/>
                         <outlet property="topEndLbl" destination="8Do-ya-siv" id="Wss-hg-gVO"/>
                     </connections>
                 </viewController>

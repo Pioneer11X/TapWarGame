@@ -15,6 +15,7 @@ class ViewController: UIViewController {
     @IBOutlet var blueLbl: UILabel!
     @IBOutlet var RedLbl: UILabel!
     
+    @IBOutlet var endSceneLbl: UILabel!
     @IBOutlet var endScene: UIButton!
     @IBOutlet var topEndLbl: UILabel!
     @IBOutlet var btmEndLbl: UILabel!
@@ -57,6 +58,7 @@ class ViewController: UIViewController {
     }
     
     func setHiddenValue(value: Bool){
+        endSceneLbl.hidden = value
         endScene.hidden = value
         topEndLbl.hidden = value
         btmEndLbl.hidden = value
